@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Hra2048.jnlp">
+  <information>
+    <title>Hra2048</title>
+    <vendor>dejdy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Hra2048.jar" size="30828" download="eager" />
+    <jar href="lib/derby.jar" size="2831358" download="eager" />
+    <jar href="lib/derbyclient.jar" size="582765" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Hra2048" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="hra2048.Hra2048"  name="Hra2048" />
+  <update check="always"/>
+</jnlp>
